@@ -1,0 +1,23 @@
+<!--pages/index.wxml-->
+<!-- <text>pages/index.wxml</text> -->
+<!--  -->
+<view class="page" style="background: url('{{imgCDN}}{{images}}'); background-size: 100% 100%;">
+  <view class="button_container">
+    <navigator class="button" url="map/details">
+      <text>{{shortName}}简介</text>
+    </navigator>
+    <navigator class="button" url="map/index">
+      <text>逛逛{{shortName}}</text>
+    </navigator>
+  </view>
+  <view class="copyright">
+    <!-- <navigator url="web-views/web-views?url"> -->
+    <navigator>
+      <text>©重庆城市科技学院资产管理与后勤处</text>
+    </navigator>
+    <!-- <navigator url="web-views/web-views?url={{mapCopyright.url}}"> -->
+    <navigator>
+      <text>数据版权：计算机科学与技术4班罗昕莹</text>
+    </navigator>
+  </view>
+</view>
